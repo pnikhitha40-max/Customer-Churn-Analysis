@@ -1,0 +1,135 @@
+# Customer Churn Analysis
+
+## Overview
+
+Customer churn is one of the biggest challenges for subscription-based businesses. This project analyzes customer behavior to identify factors influencing customer cancellations and builds a Machine Learning model to predict whether a customer is likely to churn.
+
+The project includes data preprocessing, exploratory data analysis (EDA), visualization, feature importance analysis, and customer churn prediction using a Random Forest Classifier.
+
+---
+
+## Features
+
+- Data Cleaning
+- Missing Value Detection
+- Label Encoding
+- Exploratory Data Analysis (EDA)
+- Correlation Heatmap
+- Customer Churn Visualization
+- Random Forest Classification
+- Feature Importance Analysis
+- Confusion Matrix
+- Classification Report
+- Accuracy Score
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## Project Structure
+
+```
+Customer-Churn-Analysis/
+│── customer_churn_analysis.py
+│── customer_churn.csv
+│── requirements.txt
+│── README.md
+└── .gitignore
+```
+
+---
+
+## Dataset Columns
+
+- CustomerID
+- Age
+- Gender
+- Tenure
+- MonthlyCharges
+- TotalCharges
+- SupportCalls
+- InternetUsage
+- ContractType
+- PaymentMethod
+- Churn
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/Customer-Churn-Analysis.git
+```
+
+Move into the project directory
+
+```bash
+cd Customer-Churn-Analysis
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run the Project
+
+```bash
+python customer_churn_analysis.py
+```
+
+---
+
+## Output
+
+The project generates:
+
+- Customer Churn Distribution
+- Correlation Heatmap
+- Feature Importance Chart
+- Model Accuracy
+- Confusion Matrix
+- Classification Report
+
+---
+
+## Machine Learning Algorithm
+
+Random Forest Classifier
+
+Reason for choosing:
+
+- High accuracy
+- Handles categorical and numerical features
+- Resistant to overfitting
+- Provides feature importance scores
+
+---
+
+## Future Improvements
+
+- Hyperparameter Tuning
+- XGBoost Implementation
+- Logistic Regression Comparison
+- Deployment using Flask or Streamlit
+- Interactive Dashboard with Power BI
+
+---
+
+## Author
+
+Developed as a Machine Learning project for Customer Churn Analysis using Python and Scikit-learn.
